@@ -1,4 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family: 'Montserrat',sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
 body{
     /* background-color: #296d98; */
-    background-color: #f8ecf8;
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url('images/gots.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+}
+.logo h3{
+    color: darkslategrey;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.nav ul{
+    display: flex;
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0px 20px;
+    color:rgb(227,238,227) ;
+}
+.nav ul li a:hover{
+    color: darkslategrey;
+    font-weight: bolder;
+}
+.users{
+    cursor: pointer;
+    color: darkslategrey;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+.users a{
+    text-decoration: none;
+    color: white;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+.users a:hover{
+    background-color: black;
+    color:darkslategrey;
+    font-weight: bold;
+}
+.users i{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 0px 14px;
+}
+.got{
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.got-page{
+    line-height: 1.2;
+}
+.got-page{
+    font-size: 25px;
+}
+.got-page p{
+    font-size: 15px;
+}
+span{
+    color: darkslategrey;
+    font-weight: bold;
+}
+.firstline{
+    height: 2px;
+    color: darkslategrey;
+    width: 12%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+}
+.poster{
+    margin-top: 50px;
+    margin-right: 150px;
+}
+.poster img{
+    height: 370px;
+    width: 610px;
+    float: right;
+    border-radius: 10px;
+    margin-left: 900px;
+}
+
+.btn1{
+    margin-top: 25px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: white;
+    padding: 7px 10px;
+    background-color: darkslategray;
+    border-radius: 20px;
+}
+.btn1 a:hover{
+         background: black;
+         color: darkslategrey;
 }
