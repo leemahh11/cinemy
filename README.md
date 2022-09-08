@@ -24,4 +24,4 @@ rating. Average IMDB user rating.
 votes. Number of IMDB users who rated this movie.
 r1-10. Distribution of votes for each rating, to mid point of nearest decile: 0 = no votes, 4.5 = 1-9$%$ votes, 14.5 = 11-19$%$ of votes, etc. Due to rounding errors these may not sum to 100.
 mpaa. MPAA rating.
-action, animation, comedy, drama, documentary, romance, short. Binary variables representing if movie was classified as belonging to that genre.
+action, animation, comedy, drama, documentary, romance, short. Binary variables representing if movie was classified as belonging to that genre.©
